@@ -1,0 +1,21 @@
+h1 {
+  
+    margin: 25px;
+    text-align: center;
+    color: rgb(190, 53, 53);
+}
+
+body {
+    background-color: burlywood;
+}
+
+nav ol li {
+    margin: 25px;
+    text-align: center;
+    color: rgba(6, 2, 65, 0.801);
+}
+
+
+footer {
+    margin: 25px;
+}
