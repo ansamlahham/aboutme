@@ -9,13 +9,36 @@ body {
     background-color: burlywood;
 }
 
-nav ol li {
+ul li {
     margin: 25px;
     text-align: center;
     color: rgba(6, 2, 65, 0.801);
 }
 
+#firstitem {
+    margin: 25px;
+    list-style : decimal;
+    color: rgba(117, 107, 11, 0.801);
+
+}
+
+.seconditem {
+    margin: 25px;
+    list-style : decimal;
+    color: rgba(214, 37, 37, 0.801);
+
+}
+
+
 
 footer {
     margin: 25px;
 }
+
+p {
+    margin: 25px;
+    
+    color: rgb(4, 46, 6);
+
+}
+
