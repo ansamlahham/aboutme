@@ -2,43 +2,59 @@ h1 {
   
     margin: 25px;
     text-align: center;
-    color: rgb(190, 53, 53);
+    color: rgb(199, 247, 70);
+    font-size: 2em;
 }
 
 body {
-    background-color: burlywood;
+    background-color: rgb(56, 55, 54);
 }
 
 ul li {
     margin: 25px;
     text-align: center;
-    color: rgba(6, 2, 65, 0.801);
+    color: rgba(183, 179, 240, 0.801);
+    background-color: rgb(228, 32, 71);
 }
 
 #firstitem {
     margin: 25px;
     list-style : decimal;
-    color: rgba(117, 107, 11, 0.801);
+    color: rgba(252, 231, 47, 0.801);
+    background-color: rgb(117, 28, 201);
 
 }
 
 .seconditem {
     margin: 25px;
     list-style : decimal;
-    color: rgba(214, 37, 37, 0.801);
+    color: rgba(196, 41, 144, 0.801);
+    background-color: rgb(243, 115, 23);
 
 }
 
-
+p {
+    font-family: cursive;
+   
+}
 
 footer {
     margin: 25px;
+    font-size: 1em;
+    background-color: cyan;
+    color: rgb(45, 9, 92);
+    font-family: cursive;
 }
 
 p {
     margin: 25px;
     
-    color: rgb(4, 46, 6);
+    color: rgb(16, 204, 25);
 
 }
+main ol li{
+    background-color: rgb(22, 112, 70);
+    font-family: cursive;
+    font-size: x-large;
 
+}
