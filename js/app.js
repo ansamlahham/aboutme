@@ -4,6 +4,7 @@ let userName= prompt('Whats your name?')
 
 
 
+<<<<<<< HEAD
 
 let userAnswer= prompt ('Do you think My age is 26?');
 
@@ -13,6 +14,11 @@ function user1Answer(){
 
     }(userAnswer) ;
 }
+=======
+//Q1
+function Question1(){
+let userAnswer= prompt ('Do you think My age is 26?')
+>>>>>>> 1f8da1909188f6de5fe7344a81cc3b0ea78e9040
 
 
 if (userAnswer.toUpperCase()=== 'YES' || userAnswer.toUpperCase()=== 'Y'){
@@ -25,7 +31,11 @@ else if (userAnswer.toUpperCase()=== 'NO' || userAnswer.toUpperCase()=== 'N'){
 }else{
     alert('invalid answer please enter yes or no');
 }
+}
+Question1 ();
 
+//Q2
+function Question2(){
 let userInput= prompt ('Do you think I graduated?')
 if (userInput.toUpperCase()=== 'YES' || userInput.toUpperCase()=== 'Y'){
     alert ('Your answer is correct!')
@@ -40,7 +50,10 @@ if (userInput.toUpperCase()=== 'YES' || userInput.toUpperCase()=== 'Y'){
     }else{
         alert('invalid answer please enter yes or no');
     }
-
+}
+Question2();
+    //Q3
+    function Question3(){
 let userGuess= prompt ('Do you think I am A pharmacist?')
     if (userGuess.toUpperCase()=== 'YES' || userGuess.toUpperCase()=== 'Y'){
         alert ('Your answer is correct!')
@@ -53,7 +66,10 @@ let userGuess= prompt ('Do you think I am A pharmacist?')
         }else{
             alert('invalid answer please enter yes or no');
         }
-
+    }
+    Question3();
+//Q4
+function Question4(){
 let userOutput= prompt ('Do you think I live in Jordan?')            
 if (userOutput.toUpperCase()=== 'YES' || userOutput.toUpperCase()=== 'Y'){
     alert ('Your answer is correct!')
@@ -66,7 +82,10 @@ if (userOutput.toUpperCase()=== 'YES' || userOutput.toUpperCase()=== 'Y'){
     }else{
         alert('invalid answer please enter yes or no');
     }
-
+}
+Question4();
+//Q5
+function Question5(){
 let userResult= prompt ('Do you think I am single?')
 if (userResult.toUpperCase()=== 'YES' || userResult.toUpperCase()=== 'Y'){
     alert ('Your answer is correct!')
@@ -79,8 +98,11 @@ if (userResult.toUpperCase()=== 'YES' || userResult.toUpperCase()=== 'Y'){
     }else{
         alert('invalid answer please enter yes or no');
     }
+}
+Question5();
 
-    
+    //Q6
+    function Question6(){
     for (let i =0; i<4 ; i++) {
     let favNumber = prompt ('What do you think my fav number is from 1 to 10?');
    
@@ -116,7 +138,10 @@ if (userResult.toUpperCase()=== 'YES' || userResult.toUpperCase()=== 'Y'){
         alert('OPPS! the answer was 7');
     }
     }
-
+}
+Question6 ();
+//Q7
+function Question7(){
     let favFruites = ['Apple', 'orange' , 'banana'];
     let fruite = false 
     for (let i =0; i<6 ; i++) {
@@ -138,4 +163,5 @@ if (userResult.toUpperCase()=== 'YES' || userResult.toUpperCase()=== 'Y'){
     alert('Actually my faviourite fruites are Apple , orange and banana');
   
     document.write ( ' Welcome to my page ' + userName + ' You score is  ' + score + '/7' );
-    
+}
+Question7();
